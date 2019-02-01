@@ -6,7 +6,7 @@ public class GradeAnalyzer {
     
   }
   
-  public int getAverage(ArrayList<Integer> grades){
+  public int getAverage( ){
     if (grades.size() < 1) {
       System.out.println("No grades inputted.");
       return 0;
